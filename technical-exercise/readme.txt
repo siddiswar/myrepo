@@ -63,7 +63,6 @@ Framework Details:
 		log4j.xml is found in conf folder
 		logs are written in logs\application.log
 		Currently log4j is configured to overwrite log file everytime
-		In case "No appenders could be found for logger" is written in console, explicitly add conf folder to classpath
 		
 	Comments:
 		Tried to provide comments wherever needed
