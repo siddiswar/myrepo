@@ -11,7 +11,7 @@ import io.cucumber.java.Before;
  * @author Siddu
  */
 public class Hooks {
-	
+	//Hooks present in this class are not being used 
 	Logger logger = Logger.getLogger(Hooks.class.getName());
 	
 	//WebDriver webDriver;

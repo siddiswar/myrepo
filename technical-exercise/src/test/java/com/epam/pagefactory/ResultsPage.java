@@ -16,7 +16,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ResultsPage {
-
+	// PageFactory implementation of web elements present in results page by
+	// using proper waits
 	WebDriverWait wait;
 	Logger logger = Logger.getLogger(ResultsPage.class.getName());
 
@@ -37,6 +38,7 @@ public class ResultsPage {
 	@FindBy(xpath = "//div[@id='res']//p[1]")
 	private WebElement noResultsElement;
 
+	// This method returns true if result count element is found in results page
 	public boolean searchResultsFound() {
 		try {
 			wait.until(ExpectedConditions.visibilityOf(resultStatElement));
@@ -49,12 +51,14 @@ public class ResultsPage {
 
 	}
 
+	// This method returns all the url elements of the search results
 	public List<WebElement> getSearchResultLinkElements() {
 		wait.until(ExpectedConditions.visibilityOfAllElements(allSearchResultLinkElements));
 		logger.info("Results count :" + allSearchResultLinkElements.size());
 		return allSearchResultLinkElements;
 	}
 
+	// Returns true if next link is found in results page
 	public boolean paginationNextElementFound() {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(paginationNextElement));
@@ -67,16 +71,19 @@ public class ResultsPage {
 
 	}
 
+	// This will click the "next" link
 	public void clickPaginationNextElement() {
 		wait.until(ExpectedConditions.elementToBeClickable(paginationNextElement));
 		paginationNextElement.click();
 	}
 
+	//This will return the text "page 2 of <somecount>..."
 	public String getResultStatText() {
 		wait.until(ExpectedConditions.visibilityOf(resultStatElement));
 		return resultStatElement.getText();
 	}
 
+	//incase of no results, the corresponding element which says 
 	public String noResultsElementText() {
 		wait.until(ExpectedConditions.visibilityOf(noResultsElement));
 		return noResultsElement.getText();

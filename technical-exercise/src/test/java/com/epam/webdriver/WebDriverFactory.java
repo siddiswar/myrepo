@@ -1,7 +1,8 @@
 package com.epam.webdriver;
-
+/**
+ * @author Siddu
+ */
 import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
@@ -11,13 +12,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 import com.epam.utils.PropertiesReaderUtil;
 
-/**
- * @author Siddu
- */
+
 public class WebDriverFactory {
+	//singleton webdriver instance
 	
 	Logger logger = Logger.getLogger(WebDriverFactory.class.getName());
 
@@ -46,7 +45,7 @@ public class WebDriverFactory {
 			System.setProperty("webdriver.ie.driver", System.getProperty("iedriver"));
 			DesiredCapabilities capabilities= DesiredCapabilities.internetExplorer();
 			capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
-			webDriver = new InternetExplorerDriver(capabilities);
+			webDriver = new InternetExplorerDriver();
 		}
 		webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		webDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);

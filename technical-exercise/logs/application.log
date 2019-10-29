@@ -1,17 +1,26 @@
-INFO  [main]:29 Oct 2019 15:06:43,553 Hooks.java(21)  - Before hook in Hooks class
-INFO  [main]:29 Oct 2019 15:06:43,559 AllSteps.java(38)  - Before hook
-INFO  [main]:29 Oct 2019 15:06:43,559 PropertiesReaderUtil.java(20)  - Reading properties from properties file into system properties
-INFO  [main]:29 Oct 2019 15:06:43,560 WebDriverFactory.java(32)  - Browser :IE
-INFO  [main]:29 Oct 2019 15:06:46,564 AllSteps.java(53)  - user_is_on_Google_Search_page
-INFO  [main]:29 Oct 2019 15:06:49,694 Hooks.java(27)  - After hook in Hooks class
-INFO  [main]:29 Oct 2019 15:06:49,695 AllSteps.java(47)  - After hook
-INFO  [main]:29 Oct 2019 15:06:49,700 Hooks.java(21)  - Before hook in Hooks class
-INFO  [main]:29 Oct 2019 15:06:49,700 AllSteps.java(38)  - Before hook
-INFO  [main]:29 Oct 2019 15:06:49,702 AllSteps.java(53)  - user_is_on_Google_Search_page
-INFO  [main]:29 Oct 2019 15:06:49,724 Hooks.java(27)  - After hook in Hooks class
-INFO  [main]:29 Oct 2019 15:06:49,724 AllSteps.java(47)  - After hook
-INFO  [main]:29 Oct 2019 15:06:49,726 Hooks.java(21)  - Before hook in Hooks class
-INFO  [main]:29 Oct 2019 15:06:49,726 AllSteps.java(38)  - Before hook
-INFO  [main]:29 Oct 2019 15:06:49,728 AllSteps.java(53)  - user_is_on_Google_Search_page
-INFO  [main]:29 Oct 2019 15:06:49,747 Hooks.java(27)  - After hook in Hooks class
-INFO  [main]:29 Oct 2019 15:06:49,749 AllSteps.java(47)  - After hook
+INFO  [main]:29 Oct 2019 16:14:29,934 Hooks.java(21)  - Before hook in Hooks class
+INFO  [main]:29 Oct 2019 16:14:29,940 AllSteps.java(39)  - Before hook
+INFO  [main]:29 Oct 2019 16:14:29,940 PropertiesReaderUtil.java(20)  - Reading properties from properties file into system properties
+INFO  [main]:29 Oct 2019 16:14:29,941 WebDriverFactory.java(31)  - Browser :FIREFOX
+INFO  [main]:29 Oct 2019 16:14:36,230 AllSteps.java(54)  - user_is_on_Google_Search_page
+INFO  [main]:29 Oct 2019 16:14:41,217 AllSteps.java(60)  - expectedSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 16:14:41,217 AllSteps.java(61)  - actualSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 16:14:41,220 AllSteps.java(69)  - User enters a proper search term {string} in search box
+INFO  [main]:29 Oct 2019 16:14:41,371 AllSteps.java(75)  - User clicks Google Search Button
+INFO  [main]:29 Oct 2019 16:14:41,451 AllSteps.java(158)  - Result page should contain pagination next element
+INFO  [main]:29 Oct 2019 16:14:42,087 ResultsPage.java(65)  - Pagination next element found
+INFO  [main]:29 Oct 2019 16:14:42,087 Hooks.java(27)  - After hook in Hooks class
+INFO  [main]:29 Oct 2019 16:14:42,088 AllSteps.java(48)  - After hook
+INFO  [main]:29 Oct 2019 16:14:42,091 Hooks.java(21)  - Before hook in Hooks class
+INFO  [main]:29 Oct 2019 16:14:42,092 AllSteps.java(39)  - Before hook
+INFO  [main]:29 Oct 2019 16:14:42,093 AllSteps.java(54)  - user_is_on_Google_Search_page
+INFO  [main]:29 Oct 2019 16:14:45,467 AllSteps.java(60)  - expectedSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 16:14:45,469 AllSteps.java(61)  - actualSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 16:14:45,471 AllSteps.java(69)  - User enters a proper search term {string} in search box
+INFO  [main]:29 Oct 2019 16:14:45,598 AllSteps.java(75)  - User clicks Google Search Button
+INFO  [main]:29 Oct 2019 16:14:45,704 AllSteps.java(165)  - User clicks pagination next
+INFO  [main]:29 Oct 2019 16:14:47,042 AllSteps.java(171)  - User should be taken to second page
+INFO  [main]:29 Oct 2019 16:14:47,185 AllSteps.java(179)  - Second page should have results
+INFO  [main]:29 Oct 2019 16:14:47,347 ResultsPage.java(45)  - Search Results found
+INFO  [main]:29 Oct 2019 16:14:47,347 Hooks.java(27)  - After hook in Hooks class
+INFO  [main]:29 Oct 2019 16:14:47,348 AllSteps.java(48)  - After hook

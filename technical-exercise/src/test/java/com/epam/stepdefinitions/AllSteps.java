@@ -1,4 +1,5 @@
 package com.epam.stepdefinitions;
+
 /**
  * @author Siddu
  */
@@ -21,9 +22,9 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-
 public class AllSteps {
-
+	// This is a single step definition file. Contains steps for all feature
+	// files
 	WebDriver webDriver;
 	String expectedSearchPageTitle;
 	PropertiesReaderUtil propertiesReaderUtil;
@@ -72,7 +73,7 @@ public class AllSteps {
 	@When("User clicks Google Search Button")
 	public void user_clicks_Google_Search_Button() {
 		logger.info("User clicks Google Search Button");
-		searchPage.clickSearchButton();
+		searchPage.submitSearch();
 
 	}
 
@@ -109,9 +110,15 @@ public class AllSteps {
 	public void user_should_be_notified_that_no_results_are_found() {
 		logger.info("User should be notified that no results are found");
 		String noResultsElementText = resultsPage.noResultsElementText();
-		Assert.assertTrue(noResultsElementText.contains("did not match any documents"),"User is not notified about no results");
+		Assert.assertTrue(noResultsElementText.contains("did not match any documents"),
+				"User is not notified about no results");
 	}
 
+	// In this method, we are iterating through each search result,getting the
+	// href, clicking each link, getting the target url after redirection and
+	// storing them into map.
+	// After clicking each link, we are navigating back to results page and
+	// locating elements again as previously located link elements are stale noe
 	@When("User clicks on first five results in result page")
 	public void user_clicks_on_first_five_results_in_result_page() throws InterruptedException {
 		logger.info("User clicks on first five results in result page");
@@ -134,6 +141,7 @@ public class AllSteps {
 		}
 	}
 
+	//In This step, we are asserting that actual target url and expected href are the same
 	@Then("User should be redirected to correct landing page of result")
 	public void user_should_be_redirected_to_correct_landing_page_of_result() {
 		logger.info("User should be redirected to correct landing page of result");

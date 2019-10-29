@@ -20,6 +20,7 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.PickleEventWrapper;
 import io.cucumber.testng.TestNGCucumberRunner;
 
+//TestNG runner class. WebDriver is initialized @BeforeTest and destroyed in @AfterTest. So all the features will get executed in single webdriver instance
 @CucumberOptions(features = { "src/test/resources/features" }, glue = { "com/epam/stepdefinitions",
 		"com/epam/hooks" }, plugin = { "pretty", "html:target/cucumber-reports/",
 				"json:target/cucumber-reports/cucumber.json" }, monochrome = true)
@@ -28,21 +29,20 @@ public class TestRunner {
 	WebDriver webDriver;
 	Logger logger = Logger.getLogger(TestRunner.class.getName());
 
-
 	@BeforeClass(alwaysRun = true)
 	public void setUpClass() {
 		testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
 	}
-	
+
 	@BeforeTest(alwaysRun = true)
-	public void testNgBeforeTest(){
+	public void testNgBeforeTest() {
 		logger.info("testNgBeforeTest : Creating WebDriver Instance");
 		webDriver = WebDriverFactory.getInstance().getWebDriver();
 
 	}
-	
+
 	@AfterTest(alwaysRun = true)
-	public void testNgAfterTest(){
+	public void testNgAfterTest() {
 		logger.info("testNgAfterTest : Destroying WebDriver Instance");
 		webDriver.quit();
 
