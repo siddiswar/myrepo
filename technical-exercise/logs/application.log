@@ -1,26 +1,88 @@
-INFO  [main]:29 Oct 2019 16:14:29,934 Hooks.java(21)  - Before hook in Hooks class
-INFO  [main]:29 Oct 2019 16:14:29,940 AllSteps.java(39)  - Before hook
-INFO  [main]:29 Oct 2019 16:14:29,940 PropertiesReaderUtil.java(20)  - Reading properties from properties file into system properties
-INFO  [main]:29 Oct 2019 16:14:29,941 WebDriverFactory.java(31)  - Browser :FIREFOX
-INFO  [main]:29 Oct 2019 16:14:36,230 AllSteps.java(54)  - user_is_on_Google_Search_page
-INFO  [main]:29 Oct 2019 16:14:41,217 AllSteps.java(60)  - expectedSearchPageTitle : Google
-INFO  [main]:29 Oct 2019 16:14:41,217 AllSteps.java(61)  - actualSearchPageTitle : Google
-INFO  [main]:29 Oct 2019 16:14:41,220 AllSteps.java(69)  - User enters a proper search term {string} in search box
-INFO  [main]:29 Oct 2019 16:14:41,371 AllSteps.java(75)  - User clicks Google Search Button
-INFO  [main]:29 Oct 2019 16:14:41,451 AllSteps.java(158)  - Result page should contain pagination next element
-INFO  [main]:29 Oct 2019 16:14:42,087 ResultsPage.java(65)  - Pagination next element found
-INFO  [main]:29 Oct 2019 16:14:42,087 Hooks.java(27)  - After hook in Hooks class
-INFO  [main]:29 Oct 2019 16:14:42,088 AllSteps.java(48)  - After hook
-INFO  [main]:29 Oct 2019 16:14:42,091 Hooks.java(21)  - Before hook in Hooks class
-INFO  [main]:29 Oct 2019 16:14:42,092 AllSteps.java(39)  - Before hook
-INFO  [main]:29 Oct 2019 16:14:42,093 AllSteps.java(54)  - user_is_on_Google_Search_page
-INFO  [main]:29 Oct 2019 16:14:45,467 AllSteps.java(60)  - expectedSearchPageTitle : Google
-INFO  [main]:29 Oct 2019 16:14:45,469 AllSteps.java(61)  - actualSearchPageTitle : Google
-INFO  [main]:29 Oct 2019 16:14:45,471 AllSteps.java(69)  - User enters a proper search term {string} in search box
-INFO  [main]:29 Oct 2019 16:14:45,598 AllSteps.java(75)  - User clicks Google Search Button
-INFO  [main]:29 Oct 2019 16:14:45,704 AllSteps.java(165)  - User clicks pagination next
-INFO  [main]:29 Oct 2019 16:14:47,042 AllSteps.java(171)  - User should be taken to second page
-INFO  [main]:29 Oct 2019 16:14:47,185 AllSteps.java(179)  - Second page should have results
-INFO  [main]:29 Oct 2019 16:14:47,347 ResultsPage.java(45)  - Search Results found
-INFO  [main]:29 Oct 2019 16:14:47,347 Hooks.java(27)  - After hook in Hooks class
-INFO  [main]:29 Oct 2019 16:14:47,348 AllSteps.java(48)  - After hook
+INFO  [main]:29 Oct 2019 19:32:59,925 TestRunner.java(39)  - testNgBeforeTest : Creating WebDriver Instance
+INFO  [main]:29 Oct 2019 19:32:59,934 PropertiesReaderUtil.java(20)  - Reading properties from properties file into system properties
+INFO  [main]:29 Oct 2019 19:32:59,934 WebDriverFactory.java(31)  - Browser :FIREFOX
+INFO  [main]:29 Oct 2019 19:33:06,863 AllSteps.java(39)  - Before hook
+INFO  [main]:29 Oct 2019 19:33:06,937 Hooks.java(21)  - Before hook in Hooks class
+INFO  [main]:29 Oct 2019 19:33:06,943 AllSteps.java(54)  - user_is_on_Google_Search_page
+INFO  [main]:29 Oct 2019 19:33:10,552 AllSteps.java(60)  - expectedSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 19:33:10,553 AllSteps.java(61)  - actualSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 19:33:10,560 AllSteps.java(69)  - User enters a proper search term {string} in search box
+INFO  [main]:29 Oct 2019 19:33:10,766 AllSteps.java(75)  - User clicks Google Search Button
+INFO  [main]:29 Oct 2019 19:33:10,839 AllSteps.java(158)  - Result page should contain pagination next element
+INFO  [main]:29 Oct 2019 19:33:11,523 ResultsPage.java(65)  - Pagination next element found
+INFO  [main]:29 Oct 2019 19:33:11,523 AllSteps.java(48)  - After hook
+INFO  [main]:29 Oct 2019 19:33:11,523 Hooks.java(27)  - After hook in Hooks class
+INFO  [main]:29 Oct 2019 19:33:11,532 AllSteps.java(39)  - Before hook
+INFO  [main]:29 Oct 2019 19:33:11,534 Hooks.java(21)  - Before hook in Hooks class
+INFO  [main]:29 Oct 2019 19:33:11,536 AllSteps.java(54)  - user_is_on_Google_Search_page
+INFO  [main]:29 Oct 2019 19:33:14,797 AllSteps.java(60)  - expectedSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 19:33:14,798 AllSteps.java(61)  - actualSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 19:33:14,799 AllSteps.java(69)  - User enters a proper search term {string} in search box
+INFO  [main]:29 Oct 2019 19:33:14,973 AllSteps.java(75)  - User clicks Google Search Button
+INFO  [main]:29 Oct 2019 19:33:15,041 AllSteps.java(165)  - User clicks pagination next
+INFO  [main]:29 Oct 2019 19:33:17,620 AllSteps.java(171)  - User should be taken to second page
+INFO  [main]:29 Oct 2019 19:33:17,761 AllSteps.java(179)  - Second page should have results
+INFO  [main]:29 Oct 2019 19:33:17,830 ResultsPage.java(45)  - Search Results found
+INFO  [main]:29 Oct 2019 19:33:17,830 AllSteps.java(48)  - After hook
+INFO  [main]:29 Oct 2019 19:33:17,832 Hooks.java(27)  - After hook in Hooks class
+INFO  [main]:29 Oct 2019 19:33:17,835 AllSteps.java(39)  - Before hook
+INFO  [main]:29 Oct 2019 19:33:17,838 Hooks.java(21)  - Before hook in Hooks class
+INFO  [main]:29 Oct 2019 19:33:17,838 AllSteps.java(54)  - user_is_on_Google_Search_page
+INFO  [main]:29 Oct 2019 19:33:21,082 AllSteps.java(60)  - expectedSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 19:33:21,082 AllSteps.java(61)  - actualSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 19:33:21,082 AllSteps.java(69)  - User enters a proper search term {string} in search box
+INFO  [main]:29 Oct 2019 19:33:21,190 AllSteps.java(75)  - User clicks Google Search Button
+INFO  [main]:29 Oct 2019 19:33:21,215 AllSteps.java(91)  - results page containing results should get displayed
+INFO  [main]:29 Oct 2019 19:33:21,871 ResultsPage.java(45)  - Search Results found
+INFO  [main]:29 Oct 2019 19:33:21,872 AllSteps.java(48)  - After hook
+INFO  [main]:29 Oct 2019 19:33:21,872 Hooks.java(27)  - After hook in Hooks class
+INFO  [main]:29 Oct 2019 19:33:21,874 AllSteps.java(39)  - Before hook
+INFO  [main]:29 Oct 2019 19:33:21,877 Hooks.java(21)  - Before hook in Hooks class
+INFO  [main]:29 Oct 2019 19:33:21,877 AllSteps.java(54)  - user_is_on_Google_Search_page
+INFO  [main]:29 Oct 2019 19:33:25,161 AllSteps.java(60)  - expectedSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 19:33:25,163 AllSteps.java(61)  - actualSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 19:33:25,165 AllSteps.java(98)  - User enters  improper search term {string} in search box
+INFO  [main]:29 Oct 2019 19:33:25,505 AllSteps.java(75)  - User clicks Google Search Button
+INFO  [main]:29 Oct 2019 19:33:25,535 AllSteps.java(104)  - results should not get displayed
+INFO  [main]:29 Oct 2019 19:33:45,624 ResultsPage.java(48)  - Search Results not found
+INFO  [main]:29 Oct 2019 19:33:45,626 AllSteps.java(111)  - User should be notified that no results are found
+INFO  [main]:29 Oct 2019 19:33:45,771 AllSteps.java(48)  - After hook
+INFO  [main]:29 Oct 2019 19:33:45,771 Hooks.java(27)  - After hook in Hooks class
+INFO  [main]:29 Oct 2019 19:33:45,776 AllSteps.java(39)  - Before hook
+INFO  [main]:29 Oct 2019 19:33:45,777 Hooks.java(21)  - Before hook in Hooks class
+INFO  [main]:29 Oct 2019 19:33:45,778 AllSteps.java(54)  - user_is_on_Google_Search_page
+INFO  [main]:29 Oct 2019 19:33:49,070 AllSteps.java(60)  - expectedSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 19:33:49,072 AllSteps.java(61)  - actualSearchPageTitle : Google
+INFO  [main]:29 Oct 2019 19:33:49,072 AllSteps.java(69)  - User enters a proper search term {string} in search box
+INFO  [main]:29 Oct 2019 19:33:49,222 AllSteps.java(75)  - User clicks Google Search Button
+INFO  [main]:29 Oct 2019 19:33:49,247 AllSteps.java(124)  - User clicks on first five results in result page
+INFO  [main]:29 Oct 2019 19:33:50,644 ResultsPage.java(57)  - Results count :10
+INFO  [main]:29 Oct 2019 19:33:51,122 ResultsPage.java(57)  - Results count :10
+INFO  [main]:29 Oct 2019 19:33:52,994 AllSteps.java(135)  - 0
+INFO  [main]:29 Oct 2019 19:33:52,995 AllSteps.java(136)  - expectedhref: https://www.speedtest.net/
+INFO  [main]:29 Oct 2019 19:33:52,997 AllSteps.java(137)  - actuallandingurl: https://www.speedtest.net/
+INFO  [main]:29 Oct 2019 19:33:55,757 ResultsPage.java(57)  - Results count :10
+INFO  [main]:29 Oct 2019 19:33:56,651 AllSteps.java(135)  - 1
+INFO  [main]:29 Oct 2019 19:33:56,652 AllSteps.java(136)  - expectedhref: https://broadbandtest.which.co.uk/
+INFO  [main]:29 Oct 2019 19:33:56,653 AllSteps.java(137)  - actuallandingurl: https://broadbandtest.which.co.uk/
+INFO  [main]:29 Oct 2019 19:33:59,465 ResultsPage.java(57)  - Results count :10
+INFO  [main]:29 Oct 2019 19:33:59,976 AllSteps.java(135)  - 2
+INFO  [main]:29 Oct 2019 19:33:59,977 AllSteps.java(136)  - expectedhref: https://www.broadbandspeedchecker.co.uk/
+INFO  [main]:29 Oct 2019 19:33:59,977 AllSteps.java(137)  - actuallandingurl: https://www.broadbandspeedchecker.co.uk/
+INFO  [main]:29 Oct 2019 19:34:02,625 ResultsPage.java(57)  - Results count :10
+INFO  [main]:29 Oct 2019 19:34:02,955 AllSteps.java(135)  - 3
+INFO  [main]:29 Oct 2019 19:34:02,956 AllSteps.java(136)  - expectedhref: https://fast.com/en/gb/
+INFO  [main]:29 Oct 2019 19:34:02,956 AllSteps.java(137)  - actuallandingurl: https://fast.com/en/gb/
+INFO  [main]:29 Oct 2019 19:34:05,850 ResultsPage.java(57)  - Results count :10
+INFO  [main]:29 Oct 2019 19:34:07,591 AllSteps.java(135)  - 4
+INFO  [main]:29 Oct 2019 19:34:07,592 AllSteps.java(136)  - expectedhref: https://www.broadband.co.uk/broadband-speed-test/
+INFO  [main]:29 Oct 2019 19:34:07,592 AllSteps.java(137)  - actuallandingurl: https://www.broadband.co.uk/broadband-speed-test/
+INFO  [main]:29 Oct 2019 19:34:09,864 AllSteps.java(147)  - User should be redirected to correct landing page of result
+INFO  [main]:29 Oct 2019 19:34:09,865 AllSteps.java(152)  - URL comparison assertion passed
+INFO  [main]:29 Oct 2019 19:34:09,865 AllSteps.java(152)  - URL comparison assertion passed
+INFO  [main]:29 Oct 2019 19:34:09,865 AllSteps.java(152)  - URL comparison assertion passed
+INFO  [main]:29 Oct 2019 19:34:09,866 AllSteps.java(152)  - URL comparison assertion passed
+INFO  [main]:29 Oct 2019 19:34:09,866 AllSteps.java(152)  - URL comparison assertion passed
+INFO  [main]:29 Oct 2019 19:34:09,866 AllSteps.java(48)  - After hook
+INFO  [main]:29 Oct 2019 19:34:09,866 Hooks.java(27)  - After hook in Hooks class
+INFO  [main]:29 Oct 2019 19:34:10,018 TestRunner.java(46)  - testNgAfterTest : Destroying WebDriver Instance
