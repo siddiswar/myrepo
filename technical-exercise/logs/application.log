@@ -1,0 +1,17 @@
+INFO  [main]:29 Oct 2019 15:06:43,553 Hooks.java(21)  - Before hook in Hooks class
+INFO  [main]:29 Oct 2019 15:06:43,559 AllSteps.java(38)  - Before hook
+INFO  [main]:29 Oct 2019 15:06:43,559 PropertiesReaderUtil.java(20)  - Reading properties from properties file into system properties
+INFO  [main]:29 Oct 2019 15:06:43,560 WebDriverFactory.java(32)  - Browser :IE
+INFO  [main]:29 Oct 2019 15:06:46,564 AllSteps.java(53)  - user_is_on_Google_Search_page
+INFO  [main]:29 Oct 2019 15:06:49,694 Hooks.java(27)  - After hook in Hooks class
+INFO  [main]:29 Oct 2019 15:06:49,695 AllSteps.java(47)  - After hook
+INFO  [main]:29 Oct 2019 15:06:49,700 Hooks.java(21)  - Before hook in Hooks class
+INFO  [main]:29 Oct 2019 15:06:49,700 AllSteps.java(38)  - Before hook
+INFO  [main]:29 Oct 2019 15:06:49,702 AllSteps.java(53)  - user_is_on_Google_Search_page
+INFO  [main]:29 Oct 2019 15:06:49,724 Hooks.java(27)  - After hook in Hooks class
+INFO  [main]:29 Oct 2019 15:06:49,724 AllSteps.java(47)  - After hook
+INFO  [main]:29 Oct 2019 15:06:49,726 Hooks.java(21)  - Before hook in Hooks class
+INFO  [main]:29 Oct 2019 15:06:49,726 AllSteps.java(38)  - Before hook
+INFO  [main]:29 Oct 2019 15:06:49,728 AllSteps.java(53)  - user_is_on_Google_Search_page
+INFO  [main]:29 Oct 2019 15:06:49,747 Hooks.java(27)  - After hook in Hooks class
+INFO  [main]:29 Oct 2019 15:06:49,749 AllSteps.java(47)  - After hook
